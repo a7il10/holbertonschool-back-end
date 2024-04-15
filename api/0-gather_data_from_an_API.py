@@ -1,4 +1,8 @@
+#!/usr/bin/python3
+
+import json
 import requests
+from sys import argv
 
 def todo_list_progress(employee_id):
     # Get the employee data
